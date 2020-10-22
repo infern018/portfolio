@@ -8,6 +8,7 @@ body{
     padding: 0;
     overflow: hidden;
     /* height: 100%; */
+
 }
 
 .vl1 {
@@ -85,7 +86,8 @@ h4{
     padding-top: 340px;
     line-height: 240px;
     -webkit-text-stroke: 6px #CCCCCC;
-    transition: 0.4s ease;
+    transition: 1s ease;
+    display: block;
 }
 
 .main-head2{
@@ -111,12 +113,26 @@ h4{
     padding-top: 40px;
     line-height: 240px;
     -webkit-text-stroke: 6px #CCCCCC;
-    transition: 0.4s ease;
 }
 
 
 .cards{
+    position: relative;
+    top:0px;
     padding-left:600px;
+    transition: 1s ease;
+}
+
+.lc1{
+    position: relative;
+    top:0px;
+    transition: 1s ease;
+}
+
+.lc2{
+    position: relative;
+    top:0px;
+    transition: 1s ease;   
 }
 
 .card1{
@@ -145,6 +161,16 @@ h4{
 
 .lite{
     color: #999999;
+}
+
+.side-works{
+    position: relative;
+    top:0px;
+}
+
+.about{
+    position: relative;
+    top:0px;
 }
 
 .card1 img{
