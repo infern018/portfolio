@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="vl vl1"></div>
+    <div class="vl vl2"></div>
+    
+    <div class="container" id="app-nav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">Roshni</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <!-- <li class="nav-item">
+                </li> -->
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Selected<br>Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Side<br>Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About<br>me</a>
+                </li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+
+    <h4><span style="color: #ffb800;">User eXperience </span>designer,<br>occational developer,<br>and a moody writer.</h4>
+
+    <!-- selected works -->
+    <h1 class="main-head">Selected<br>Projects</h1>
+
+    <div class="cards">
+        <div class="card1">
+            <h1>Improving UI/UX of BlueGenes</h1>
+            <p>First industry experience as a design intern under Outreachy2020- responsible for overall experience of system users by performing heuristic analysis, user testing, and research to identify pain points and needs.</p>
+            <p class="lite">MAY 2020 - AUG 2020 | REMOTE INTERN</p>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card1">
+            <h1>Daily UX writing</h1>
+            <p>Compilation of rational/thought process and user experience writing for 15 different  problems in 15 days straight.</p>
+            <p class="lite">PERSONAL</p>
+        </div>
+    </div>
+
+
+    <!-- side works -->
+    <h1 class="main-head2">Side<br>Works</h1>
+
+    <div class="cards">
+        <div class="card1">
+            <h1>pixels.Convert</h1>
+            <p>A figma plugin to get parameters of texts and shapes in pixels, dip, mm, inch and points for various screen resolutions.</p>
+            <p class="lite">DEVELOPMENT.COMMUNITY</p>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card1">
+            <h1>Minimalism</h1>
+            <p>Collection of some of the minimal art, done as an exercise over tools.</p>
+            <p class="lite">GRAPHICS . MINIMAL . PERSONAL</p>
+        </div>
+    </div>
+
+    <!-- about -->
+    <h1 class="main-head3">About<br>Me</h1>
+
+    <div class="cards last-card">
+        <div class="card1">
+            <img src="dummy.jpg">
+        </div>
+    </div>
+
+
+    <div class="info-card">
+        <p>I’m a 3rd year BTech. undergraduate @IIITA<br>Primary interests lie in interaction design, user research and product thinking. Don’t mind banging lines of code to build stuff that tends to make digital experience more ‘human’</p>
+    </div>
+
+    <!-- <div class="footer"></div> -->
+
+
+    <script> 
+
+        window.onscroll = function() { 
+            scrollFunction1(); 
+            scrollFunction2(); 
+            // scrollFunction3(); 
+
+        }; 
+            
+        function scrollFunction1() { 
+            if (document.body.scrollTop > 700 || 
+                document.documentElement.scrollTop > 700) //when small
+            { 
+                document.querySelector(".main-head").style.fontSize = "5vw",
+                document.querySelector(".main-head").style.lineHeight="100%";
+                document.querySelector(".main-head").style.paddingLeft="70px";
+                document.querySelector(".main-head").style.webkitTextStroke="2px #cccccc";
+                    
+            } 
+            else {                                          //when large
+                document.querySelector(".main-head").style.fontSize = "20vw"; 
+                document.querySelector(".main-head").style.lineHeight="90%";
+                document.querySelector(".main-head").style.paddingLeft="0px";
+                document.querySelector(".main-head").style.webkitTextStroke="6px #cccccc";          
+            } 
+        } 
+
+        function scrollFunction2() { 
+            if (document.body.scrollTop > 1300 || 
+                document.documentElement.scrollTop > 1300) //when small
+            { 
+                document.querySelector(".main-head2").style.fontSize = "5vw",
+                document.querySelector(".main-head2").style.lineHeight="100%";
+                document.querySelector(".main-head2").style.paddingLeft="70px";
+                document.querySelector(".main-head2").style.webkitTextStroke="2px #cccccc";
+                    
+            } 
+            else {                                          //when large
+                document.querySelector(".main-head2").style.fontSize = "20vw"; 
+                document.querySelector(".main-head2").style.lineHeight="90%";
+                document.querySelector(".main-head2").style.paddingLeft="0px";
+                document.querySelector(".main-head2").style.webkitTextStroke="6px #cccccc";          
+            } 
+        } 
+
+        function scrollFunction3() { 
+            if (document.body.scrollTop > 2000 || 
+                document.documentElement.scrollTop > 2000) //when small
+            { 
+                document.querySelector(".main-head3").style.fontSize = "5vw",
+                document.querySelector(".main-head3").style.lineHeight="100%";
+                document.querySelector(".main-head3").style.paddingLeft="70px";
+                document.querySelector(".main-head3").style.webkitTextStroke="2px #cccccc";
+                    
+            } 
+            else {                                          //when large
+                document.querySelector(".main-head3").style.fontSize = "20vw"; 
+                document.querySelector(".main-head3").style.lineHeight="90%";
+                document.querySelector(".main-head3").style.paddingLeft="0px";
+                document.querySelector(".main-head3").style.webkitTextStroke="6px #cccccc";          
+            } 
+        } 
+    </script> 
+    
+
+
+</body>
+</html>
