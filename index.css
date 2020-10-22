@@ -8,6 +8,7 @@ body{
     padding: 0;
     overflow: hidden;
     /* height: 100%; */
+    height: auto;
 
 }
 
@@ -171,6 +172,7 @@ h4{
 .about{
     position: relative;
     top:0px;
+    max-height: 400px;
 }
 
 .card1 img{

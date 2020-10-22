@@ -32,7 +32,7 @@
             { 
                 document.querySelector(".main-head2").style.opacity = "0.01",
                 document.querySelector(".lc2").style.top = "-500px";
-                document.querySelector(".about").style.top = "-850px";
+                document.querySelector(".about").style.top = "-770px";
 
                     
             } 
