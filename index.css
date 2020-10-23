@@ -16,7 +16,7 @@ body{
     position: fixed;
     top:0px;
     right:282px;
-    border-left: 3px solid #CCCCCC;
+    border-left: 3px solid #999999;
     height: 100vh;
     z-index: 9;
 }
@@ -86,7 +86,7 @@ h4{
     color: #ffffff;
     padding-top: 340px;
     line-height: 240px;
-    -webkit-text-stroke: 6px #CCCCCC;
+    -webkit-text-stroke: 6px #999999;
     transition: 1s ease;
     display: block;
 }
@@ -100,7 +100,7 @@ h4{
     color: #ffffff;
     padding-top: 40px;
     line-height: 240px;
-    -webkit-text-stroke: 6px #CCCCCC;
+    -webkit-text-stroke: 6px #999999;
     transition: 0.4s ease;
 }
 
@@ -113,14 +113,14 @@ h4{
     color: #ffffff;
     padding-top: 40px;
     line-height: 240px;
-    -webkit-text-stroke: 6px #CCCCCC;
+    -webkit-text-stroke: 6px #999999;
 }
 
 
 .cards{
     position: relative;
     top:0px;
-    padding-left:600px;
+    left:600px;
     transition: 1s ease;
 }
 
@@ -141,13 +141,17 @@ h4{
     margin:50px 0;
     width: 530px;
     /* height: 240px; */
+    padding-left: 20px;
     z-index: 9999 !important;
     background-color: #ffffff;
+    /* box-shadow: 0px 0px 2px 2px #CCCCCC; */
+    box-shadow: 0px 2px 8px rgba(153, 153, 153, 0.3);
+    border-radius: 4px;
     
 }
 
 .cards h1{
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: Helvetica, sans-serif;
     font-weight: 600;
     font-size: 30px;
@@ -157,11 +161,71 @@ h4{
 
 .cards p{
     font-size: 14px;
+    padding-right: 20px;
     line-height: 20px !important;
 }
 
 .lite{
     color: #999999;
+    padding-bottom: 20px;
+}
+
+.im1{
+    position: relative;
+    top:130px;
+    right:10px;
+    visibility: hidden;
+    transition: 0.4s ease;
+}
+
+.im2{
+    position: relative;
+    top:230px;
+    right:100px;
+    visibility: hidden;
+    transition: 0.4s ease;
+}
+
+#cds1{
+    margin-top:-70px
+}
+
+#cds1:hover .im1{
+    visibility: visible;
+    right: 120px;
+}
+
+#cds1:hover .im2{
+    visibility: visible;
+    right: 250px;
+}
+
+#cds2{
+    margin-top: -150px;
+}
+
+#cds2:hover .im1{
+    visibility: visible;
+    right: 120px;
+}
+
+#cds2:hover .im2{
+    visibility: visible;
+    right: 250px;
+}
+
+#cds3{
+    margin-top: -200px;
+}
+
+#cds3:hover .im1{
+    visibility: visible;
+    right: 120px;
+}
+
+#cds3:hover .im2{
+    visibility: visible;
+    right: 250px;
 }
 
 .side-works{
@@ -171,8 +235,8 @@ h4{
 
 .about{
     position: relative;
-    top:0px;
-    max-height: 400px;
+    top:-100px;
+    max-height: 1000px;
 }
 
 .card1 img{
@@ -189,9 +253,9 @@ h4{
 
 .info-card{
     position: relative;
-    width:660px;
+    width:580px;
     top:-600px;
-    left: 400px;
+    left: 350px;
     padding: 50px;
     background-color: #ffb800;
     z-index:9999;
@@ -199,13 +263,122 @@ h4{
 
 .info-card p{
     color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.ls-card{
+    left: 600px;
+}
+
+.com-card{
+    position: relative;
+    z-index: 99999;
+    background-color: #ffffff;
+    width:290px;
+    left:920px;
+    bottom: 700px;
+    box-shadow: 0px 2px 8px rgba(153, 153, 153, 0.3);
+    transform: rotate(354deg);
+
+}
+
+.com-card p{
+    font-family: 'Nanum Pen Script', cursive;
+    padding: 20px;
+    padding-top: 30px;
+    color: #ffb800;
     font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.tape{
+    position: relative;
+    bottom:1080px;
+    left:810px;
+    z-index: 999999;
 }
 
 .footer{
     position: relative;
-    height: 300px;
+    text-align: center;
+    /* height: 300px; */
+    margin-top: -300px;
+    z-index: 99;
     background-color: #ffb800;
-    top:-500px;
 }
-  
+
+.links1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.links1 i{
+    padding-right: 12px;
+    color: #353744 !important;
+    font-size: 1.8vw;
+}
+
+.lnk1 a{
+    color: #353744 !important;
+    text-decoration: underline;
+    font-size: 1.8vw;
+    line-height: 15px;
+    font-weight: 800;
+}
+
+.lnk1{
+    padding:0px 40px !important;
+}
+
+.footer h1{
+    color: #ffffff;
+    padding-top: 170px;
+    font-size: 3.1vw;
+    font-weight: 800;
+}
+
+.end-p{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.handles{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.lnk2{
+    border: 4px solid #353744;
+    padding:4px 5px 2px 5px;
+    border-radius: 50%;
+    margin: 0 7px;
+}
+
+.lnk2 i{
+    font-size: 1.7vw;
+    font-weight: 600;
+    color: #353744 !important;
+}
+
+
+li{
+    display: inline-block;
+}
+
+.end-note{
+    margin-bottom: 0;
+    padding:30px 0;
+    color: #ffffff;
+    padding-left: 40px;
+}

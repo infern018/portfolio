@@ -10,9 +10,9 @@
             if (document.body.scrollTop > 700 || 
                 document.documentElement.scrollTop > 700) //when small
             { 
-                document.querySelector(".main-head").style.opacity = "0.01";
+                document.querySelector(".main-head").style.opacity = "0.01"; //for less 0.1
                 document.querySelector(".lc1").style.top = "-500px";
-                document.querySelector(".side-works").style.top = "-410px";
+                document.querySelector(".side-works").style.top = "-210px";
 
 
                     
@@ -27,19 +27,19 @@
         } 
 
         function scrollFunction2() { 
-            if (document.body.scrollTop > 1250 || 
-                document.documentElement.scrollTop > 1250) //when small
+            if (document.body.scrollTop > 1430 || 
+                document.documentElement.scrollTop > 1430) //when small
             { 
                 document.querySelector(".main-head2").style.opacity = "0.01",
                 document.querySelector(".lc2").style.top = "-500px";
-                document.querySelector(".about").style.top = "-770px";
+                document.querySelector(".about").style.top = "-370px";
 
                     
             } 
             else {                                          //when large
                 document.querySelector(".main-head2").style.opacity = "1"; 
                 document.querySelector(".lc2").style.top = "0px"; 
-                document.querySelector(".about").style.top = "0px";
+                document.querySelector(".about").style.top = "-100px";
             } 
         } 
 
@@ -60,3 +60,5 @@
                 document.querySelector(".main-head3").style.webkitTextStroke="6px #cccccc";          
             } 
         } 
+
+

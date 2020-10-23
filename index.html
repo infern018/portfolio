@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4dfdfdf166.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -48,7 +50,9 @@
     <h1 class="main-head">Selected<br>Projects</h1>
 
     <div class="lc1">
-        <div class="cards">
+        <div class="cards" id="cds1">
+            <img src="outreachy.png" class="im1">
+            <img src="inter_mine.png" class="im2">    
             <div class="card1">
                 <h1>Improving UI/UX of BlueGenes</h1>
                 <p>First industry experience as a design intern under Outreachy2020- responsible for overall experience of system users by performing heuristic analysis, user testing, and research to identify pain points and needs.</p>
@@ -56,7 +60,9 @@
             </div>
         </div>
 
-        <div class="cards">
+        <div class="cards" id="cds2">
+            <img src="outreachy.png" class="im1">
+            <img src="inter_mine.png" class="im2">    
             <div class="card1">
                 <h1>Daily UX writing</h1>
                 <p>Compilation of rational/thought process and user experience writing for 15 different  problems in 15 days straight.</p>
@@ -71,31 +77,50 @@
         <h1 class="main-head2">Side<br>Works</h1>
 
         <div class="lc2">
+            <div class="cards" id="cds3">   
+                    <img src="outreachy.png" class="im1">
+                    <img src="inter_mine.png" class="im2">             
+                    <div class="card1">
+                        <h1>pixels.Convert</h1>
+                        <p>A figma plugin to get parameters of texts and shapes in pixels, dip, mm, inch and points for various screen resolutions.</p>
+                        <p class="lite">DEVELOPMENT.COMMUNITY</p>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="card1">
+                        <h1>Minimalism</h1>
+                        <p>Collection of some of the minimal art, done as an exercise over tools.</p>
+                        <p class="lite">GRAPHICS . MINIMAL . PERSONAL</p>
+                    </div>
+                </div>
+
             <div class="cards">
                 <div class="card1">
-                    <h1>pixels.Convert</h1>
-                    <p>A figma plugin to get parameters of texts and shapes in pixels, dip, mm, inch and points for various screen resolutions.</p>
-                    <p class="lite">DEVELOPMENT.COMMUNITY</p>
+                    <h1>T-shirt Graphics</h1>
+                    <p>Compilation of t-shirt graphics, designed for several college event merchandise.</p>
+                    <p class="lite">GRAPHICS . IIITA MERCHANDISE</p>
                 </div>
             </div>
 
             <div class="cards">
                 <div class="card1">
-                    <h1>Minimalism</h1>
-                    <p>Collection of some of the minimal art, done as an exercise over tools.</p>
-                    <p class="lite">GRAPHICS . MINIMAL . PERSONAL</p>
+                    <h1>Poster Collection</h1>
+                    <p>Poster collection</p>
+                    <p class="lite">GRAPHICS . IIITA MERCHANDISE . SOCIAL </p>
                 </div>
             </div>
+
         </div>
    </div>
 
     <!-- about -->
     <div class="about">
-        <h1 class="main-head3">About<br>Me</h1>
+        <h1 class="main-head3">About<br>Me.</h1>
 
         <div class="cards last-card">
-            <div class="card1">
-                <img src="dummy.jpg">
+            <div class="card1 ls-card">
+                <img src="dummy.jpg" class="pers_img">
             </div>
         </div>
 
@@ -103,9 +128,34 @@
         <div class="info-card">
             <p>I’m a 3rd year BTech. undergraduate @IIITA<br>Primary interests lie in interaction design, user research and product thinking. Don’t mind banging lines of code to build stuff that tends to make digital experience more ‘human’</p>
         </div>
+
+        <div class="com-card">
+            <p>Some days I try to solve user-experience issues by merging aesthetics, a bit mathematics & data in proportions while other days one can spot me preparing for my upcoming hackathon or lying all day watching cartoons or relishing 70s-80s vintage playlist.<br><br>Other than this I take interest in   🌙 🌠 🎸 🎹 🎨 ⛺ 👽 🏓 ⚽</p>
+        </div>
+        <img src="tape.png" class="tape">
     </div>
 
-    <!-- <div class="footer"></div> -->
+    <div class="footer">
+        <h1 class="foot-head">Let's link! <i class="fas fa-hands-helping shake"></i></h1>
+        <p class="end-p">I’m currently looking forward to join a team who is crazy about <br>influencing people through design :D</p>
+
+        <ul class="links1">
+            <li class="lnk1"><i class="fab fa-facebook-messenger"></i><a href="#">Messenger Chat?</a></li>
+            <li class="lnk1"><i class="fas fa-envelope"></i><a href="#">Copy my email!</a></li>
+        </ul>
+
+        <ul class="handles">
+            <li class="lnk2"><a href="#"><i class="fab fa-behance"></i></a></li>
+            <li class="lnk2"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+            <li class="lnk2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="lnk2"><a href="#"><i class="fab fa-github"></i></a></li>
+            <li class="lnk2"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li class="lnk2"><a href="#"><i class="fab fa-medium-m"></i></a></li>
+        </ul>
+
+        <p class="end-note">Copyright @ 2020 Roshni Prajapati</p>
+
+    </div>
 
     <script language="JavaScript" src="index.js?n=1"></script>
 
