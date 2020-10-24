@@ -319,19 +319,19 @@ h4{
 
 @media screen and (min-width: 1400px) {
     .cards{
-        left:850px;
+        left:60%;
     }
 
     .last-card{
-        left: 100px;
+        left:12%;
     }
 
     .info-card{
-        left: 500px;
+        left: 33%;
     }
 
     .com-card{
-        left: 1070px;
+        left:67%;
     }
 
     .tape{
