@@ -121,13 +121,14 @@ h4{
     position: relative;
     top:0px;
     left:600px;
-    transition: 1s ease;
+    transition: 1.6s ease;
 }
+
 
 .lc1{
     position: relative;
     top:0px;
-    transition: 1s ease;
+    transition: 1.6s ease;
 }
 
 .lc2{
@@ -184,6 +185,19 @@ h4{
     right:100px;
     visibility: hidden;
     transition: 0.4s ease;
+}
+
+.card1{
+    transition: 0.6s ease;
+}
+
+.card1:hover{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  /* animation-name: example;
+  animation-duration: 0.25s; */
+    border-left: 8px solid #ffb800;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 #cds1{
@@ -301,6 +315,29 @@ h4{
     z-index: 999999;
 }
 
+
+@media screen and (min-width: 1400px) {
+    .cards{
+        left:800px;
+    }
+
+    .last-card{
+        left: 100px;
+    }
+
+    .info-card{
+        left: 500px;
+    }
+
+    .com-card{
+        left: 1070px;
+    }
+
+    .tape{
+        left:970px;
+    }
+  }
+
 .footer{
     position: relative;
     text-align: center;
@@ -374,6 +411,19 @@ h4{
 
 li{
     display: inline-block;
+}
+
+.link-g{
+    padding:4px 6px 2px 6px;
+}
+ 
+.link-l{
+    padding:4px 5px 2px 5px;
+    bottom: 2px;
+}
+
+.link-l img{
+    padding-bottom: 4px;
 }
 
 .end-note{
