@@ -43,6 +43,7 @@ body{
     line-height: 24px;
 }
 
+
 .navbar-nav{
     padding-right: 40px;
 }
@@ -335,6 +336,28 @@ h4{
 
     .tape{
         left:970px;
+    }
+  }
+
+  @media screen and (min-width: 1300px) {
+    .cards{
+        left:700px;
+    }
+
+    .last-card{
+        left: 0px;
+    }
+
+    .info-card{
+        left: 400px;
+    }
+
+    .com-card{
+        left: 970px;
+    }
+
+    .tape{
+        left: 870px;
     }
   }
 
