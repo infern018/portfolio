@@ -337,6 +337,15 @@ h4{
     .tape{
         left:970px;
     }
+
+    .navbar{
+        margin-right: -120px;
+        padding-left: 10px;
+    }
+
+    h4{
+        padding-left: 1023px;
+    }
   }
 
 
