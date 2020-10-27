@@ -59,9 +59,14 @@ body{
     font-family: 'Goudy Bookletter 1911', serif;
     font-weight: 500;
     color: #353744 !important;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 18px;
     line-height: 20px;
+}
+
+.nav-link:hover{
+    color: #ffb800 !important;
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 600px){
@@ -210,6 +215,13 @@ h4{
     transition: 0.6s ease;
 }
 
+.card1 a{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #353744;
+}
+
 .card1:hover{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -217,6 +229,13 @@ h4{
   animation-duration: 0.25s; */
     border-left: 8px solid #ffb800;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ls-card:hover{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 0px solid #ffb800;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.25), 0 0px 0px rgba(0,0,0,0.22);
 }
 
 #cds1{
@@ -427,7 +446,7 @@ h4{
     list-style-type: none;
     margin: 0;
     text-align: right;
-    padding-top: 80px;
+    padding-top:170px;
     padding-right: 30px;
     overflow: hidden;
 }
