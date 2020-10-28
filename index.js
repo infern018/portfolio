@@ -86,7 +86,7 @@
             
             try {
               document.execCommand('copy');
-              alert('text copied');
+              $('.tooltiptext').text("Copied!");
             }
             catch (err) {
               alert('unable to copy text');

@@ -75,6 +75,13 @@ body{
     }
 }
 
+.name-head0{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 9vw;
+    color: #353744;
+    margin-bottom: -20px;
+}
+
 .name-head{
     font-family: 'Goudy Bookletter 1911', serif;
     font-size: 20vw;
@@ -270,7 +277,7 @@ h4{
     margin-top: 90px;
 }
 
-/* #cds3:hover .im1{
+#cds3:hover .im1{
     visibility: visible;
     right: 120px;
 }
@@ -278,7 +285,7 @@ h4{
 #cds3:hover .im2{
     visibility: visible;
     right: 250px;
-} */
+}
 
 .side-works{
     position: relative;
@@ -417,6 +424,23 @@ h4{
 .lnk1{
     padding:0px 40px !important;
 }
+
+.lnk1 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #fac53e;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;  
+    /* Position the tooltip */
+    position: absolute;
+    right:200px;
+    z-index: 1;
+  }
+  
+  .lnk1:hover .tooltiptext {
+    visibility: visible;
+  }
 
 .footer h1{
     color: #ffb800;
