@@ -341,7 +341,6 @@ h4{
     bottom: 700px;
     box-shadow: 0px 2px 8px rgba(153, 153, 153, 0.3);
     transform: rotate(354deg);
-
 }
 
 .com-card p{
@@ -503,4 +502,196 @@ li{
     padding-top: 70px;
     color: #ffffff;
     padding-left: 40px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .vl1 {
+    right:130px;
+    border-left: 2px solid #999999;
+    z-index: 9;
+    }
+
+    .vl2 {
+    right:30px;
+    border-left: 2px solid #ffb800;
+    z-index: 9;
+  }
+
+  .navbar{
+      padding-left: 10px;
+  }
+
+  .nav{
+      margin-right: -15%;
+  }
+
+  .nav-item{
+    padding:0px 0px;
+    z-index: 999;
+    }
+
+    .nav-link{
+        font-family: 'Goudy Bookletter 1911', serif;
+        font-weight: 500;
+        color: #353744 !important;
+        /* text-decoration: underline; */
+        font-size: 14px;
+        line-height: 10px;
+    }
+
+    .name-head0{
+        padding: 0px 30px;
+        padding-bottom: 20px;
+    }
+    
+    .name-head{
+        padding:0 30px;
+    }
+
+    h4{
+        font-size: 14px;
+        line-height: 24px;
+        top:50px;
+        right:140px;
+    }
+
+    .main-head{
+        padding:10px 0;
+        font-size: 20vw;
+        padding-top: 310px;
+        line-height: 70px;
+        -webkit-text-stroke: 1px #353744;
+    }
+
+    .cards{
+        top:0px;
+        left:-80px;
+    }
+
+    .card1{
+        transform: scale(0.6);
+        margin: -50px 0px;
+    }
+
+    .lc1{
+        top:-75px;
+    }
+
+    .main-head3{
+        padding:10px 0;
+        font-size: 20vw;
+        padding-top: 310px;
+        line-height: 70px;
+        -webkit-text-stroke: 1px #353744;
+    }
+
+    .about{
+        top:100px;
+    }
+
+    .last-card{
+        position: relative;
+        top:-400px;
+        left:0px;
+    }
+
+    .ls-card{
+        left: 0px;
+        top:300px;
+    }
+
+    .card1 img{
+        width:400px;
+        height:400px;
+    }
+
+    .info-card{
+        width:250px;
+        top:-190px;
+        left:20px;
+        padding:17px;
+        padding-bottom:8px;
+    }
+    
+    .info-card p{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .com-card{
+        width:200px;
+        left:140px;
+        bottom:200px;
+        box-shadow: 0px 2px 8px rgba(153, 153, 153, 0.3);
+        transform: rotate(354deg);
+    }
+
+    .com-card p{
+        padding: 15px;
+        padding-top: 20px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height:14px;
+    }
+
+    .tape{
+        bottom:500px;
+        left:160px;   
+        transform: rotate(40deg) scale(0.6);
+    }
+
+    .footer h1{
+        font-size: 20vw;
+        -webkit-text-stroke: 1px #ffffff;
+    }
+
+    .end-p{
+        font-weight: 400;
+        padding-top:0px;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 15px;
+        line-height:18px;
+        padding-bottom: 15px;
+    }
+
+    .lnk1 a{
+        font-size: 28px;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .lnk1{
+        padding:40px 20px !important;
+        padding-right: 30px !important;
+    }
+    
+    .lnk1 .tooltiptext {
+        /* Position the tooltip */
+        position: absolute;
+        right:130px;
+        top:80px;
+      }
+
+      .handles{
+          padding-top:40px;
+          text-align: center;
+      }
+
+      .lnk2 img{
+        transform: scale(0.7);
+    }
+    
+    .lnk2{
+        margin: 0 -12px;
+    }
+
+    .end-note{
+        padding:60px 0;
+        padding-bottom: 30px;
+        padding-top: 70px;
+    }
 }
